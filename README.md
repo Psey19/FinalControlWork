@@ -9,7 +9,7 @@ cd TestWork/
 cat > Pets.txt
 cat > Pack_Animals.txt
 ```
-![](docs/1.png)
+![](FinalControlWork/docs/1.png)
 
    - Объединить содержимое этих двух файлов в один и просмотреть его содержимое.
    Переименовать получившийся файл в "Human Friends".
