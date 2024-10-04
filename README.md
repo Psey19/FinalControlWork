@@ -305,7 +305,7 @@ LEFT JOIN Animal a ON a.Animal_Id = pa.Species_Id;
 ![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/11-oop.png)
 
 ### 9. Программа-реестр домашних животных
-- Написать программу на Java, которая будет имитировать реестр домашних животных. 
+- Написать [программу](https://github.com/Psey19/FinalControlWork/blob/main/Program.java) на Java, которая будет имитировать реестр домашних животных. 
 Должен быть реализован следующий функционал:
 
 ### 9.1. Добавление нового животного
