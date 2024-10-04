@@ -1,0 +1,36 @@
+Task_1
+
+mkdir TestWork
+cd TestWork/
+cat > Pets.txt
+cat > Pack_Animals.txt
+cat Pets.txt Pack_Animals.txt > Human_Friends.txt
+ls
+
+Task_2
+
+cd
+mkdir ControlWork
+cd TestWork/
+mv Human_Friends.txt ~/ControlWork/
+cd
+cd ControlWork/
+ls
+
+Task_3
+
+cd
+sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+ls -fla | grep mysql
+sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+sudo apt-get update
+sudo apt-get install mysql-server
+systemctl status mysql
+
+Task_4
+
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ls -fla | grep chrome
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+dpkg -l | grep chrome
+sudo dpkg -r google-chrome-stable
