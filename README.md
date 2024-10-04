@@ -17,7 +17,7 @@ cat > Pack_Animals.txt
 cat Pets.txt Pack_Animals.txt > Human_Friends.txt
 cat Human_Friends.txt
 ```
-![](docs/2.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/2.png)
 
 ### 2. Работа с директориями в Linux
 - Создать новую директорию и переместить туда файл "Human Friends".
@@ -27,7 +27,7 @@ mkdir ControlWork
 cd TestWork/
 mv Human_Friends.txt ~/ControlWork/
 ```
-![](docs/3.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/3.png)
 
 ### 3. Работа с MySQL в Linux. “Установить MySQL на вашу вычислительную машину ”
 - Подключить дополнительный репозиторий MySQL и установить один из пакетов из этого репозитория.
@@ -41,7 +41,7 @@ sudo apt-get update
 sudo apt-get install mysql-server
 systemctl status mysql
 ```
-![](docs/4.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/4.png)
 
 ### 4. Управление deb-пакетами
 - Установить и затем удалить deb-пакет, используя команду `dpkg`.
@@ -53,17 +53,17 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 dpkg -l | grep chrome
 sudo dpkg -r google-chrome-stable
 ```
-![](docs/5.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/5.png)
 
 ### 5. История команд в терминале Ubuntu
-- Сохранить и выложить [историю](docs/Logs.txt) ваших терминальных команд в Ubuntu.
+- Сохранить и выложить [историю](https://github.com/Psey19/FinalControlWork/blob/main/docs%20//Logs.txt) ваших терминальных команд в Ubuntu.
 
 ## Объектно-ориентированное программирование 
 
 ### 6. Диаграмма классов
-   - Создать [диаграмму](docs/Диаграмма.drawio) классов с родительским классом "Животные", и двумя подклассами: "Pets" и "Pack animals".
+   - Создать [диаграмму](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/Диаграмма.drawio) классов с родительским классом "Животные", и двумя подклассами: "Pets" и "Pack animals".
 
-![](docs/Диаграмма.jpg)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20//Диаграмма.jpg)
 
 ### 7. Работа с MySQL 
 
@@ -221,7 +221,7 @@ SELECT Name, DateBirth, Commands FROM Horse
 UNION 
 SELECT Name, DateBirth, Commands FROM Donkey;
 ```
-![](docs/db_1.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/db_1.png)
 
 - Создать новую таблицу для животных в возрасте от 1 до 3 лет и вычислить их возраст с точностью до месяца.
 
@@ -246,7 +246,7 @@ WHERE DateBirth BETWEEN ADDDATE(CURDATE(), INTERVAL -36 MONTH) AND ADDDATE(CURDA
 SELECT * FROM Young_Animal;
 ```
 
-![](docs/db_2.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/db_2.png)
 
 
 - Объединить все созданные таблицы в одну, сохраняя информацию о принадлежности к исходным таблицам.
@@ -277,32 +277,32 @@ LEFT JOIN Young_Animal ya ON ya.Name = d.Name
 LEFT JOIN Pack_Animal pa ON pa.Pack_Animal_Id = d.Type_Id
 LEFT JOIN Animal a ON a.Animal_Id = pa.Species_Id;
 ```
-![](docs/db_3.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/db_3.png)
 
 ### 8. ООП и Java
 - Создать иерархию классов в Java, который будет повторять диаграмму классов созданную в задаче 6   (Диаграмма классов).
 
-![](docs/1-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/1-oop.png)
 
-![](docs/2-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/2-oop.png)
 
-![](docs/3-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/3-oop.png)
 
-![](docs/10-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/10-oop.png)
 
-![](docs/4-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/4-oop.png)
 
-![](docs/5-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/5-oop.png)
 
-![](docs/6-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/6-oop.png)
 
-![](docs/7-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/7-oop.png)
 
-![](docs/8-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/8-oop.png)
 
-![](docs/9-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/9-oop.png)
 
-![](docs/11-oop.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/11-oop.png)
 
 ### 9. Программа-реестр домашних животных
 - Написать программу на Java, которая будет имитировать реестр домашних животных. 
@@ -312,41 +312,41 @@ LEFT JOIN Animal a ON a.Animal_Id = pa.Species_Id;
 - Реализовать функциональность для добавления новых животных в реестр.
 Животное должно определяться в правильный класс (например, "собака", "кошка", "хомяк" и т.д.)
 
-![](docs/add1.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/add1.png)
 
-![](docs/add2.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/add2.png)
 
 ### 9.2. Список команд животного
 - Вывести список команд, которые может выполнять добавленное животное (например, "сидеть", "лежать").
 
-![](docs/showCommands.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/showCommands.png)
 
 ### 9.3. Обучение новым командам
 - Добавить возможность обучать животных новым командам.
 
-![](docs/teachCommand.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/teachCommand.png)
 
 ### 9.4 Вывести список животных по дате рождения
 
-![](docs/dateBirth.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/dateBirth.png)
 
 ### 9.5. Навигация по меню
 - Реализовать консольный пользовательский интерфейс с меню для навигации между вышеуказанными функциями.
 
-![](docs/navi1.png)
-![](docs/navi2.png)
-![](docs/navi3.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/navi1.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/navi2.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/navi3.png)
 
 ### 10. Счетчик животных
 - Создать механизм, который позволяет вывести на экран общее количество созданных животных любого типа (Как домашних, так и вьючных), то есть при создании каждого нового животного счетчик увеличивается на “1”. 
 
-![](docs/counter.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/counter.png)
 
-![](docs/counter2.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/counter2.png)
 
-![](docs/counter3.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/counter3.png)
 
-![](docs/counter4.png)
+![](https://github.com/Psey19/FinalControlWork/blob/main/docs%20/counter4.png)
 
 
 # Описание программы
